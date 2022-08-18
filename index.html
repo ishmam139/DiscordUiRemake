@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+<div class="mainBody">
+ <div class="container">
+  <div class="buttonContainer">
+  <button class="button">
+    <img src="/discord.png" style="filter: saturate(60%)" alt="">
+  </button>
+  
+  <button class="button">
+    <img src="/fire.png" alt="yo">
+    </button>
+  
+  <button class="button">
+    <img src="/css-3.png" style="filter: brightness(80%)" alt="">
+  </button>
+  
+  <button class="button">
+    <img src="/programming-code-signs.png" style="filter: saturate(60%)" alt="">
+  </button>
+  
+  <button class="button">
+    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828819.png" alt="y">
+  </button>
+  
+  </div>
+ </div>
+</div>
+<style>
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #00D34E;
+    border-radius: 100px;
+    background-color: #001E2A;
+  }
+  
+  .buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 7px 0;
+    border: 2px solid #012D46;
+    border-radius: 50%;
+    background-color: #012B43;
+    box-shadow: 0 10px 20px #001B26;
+    transition: all 200ms ease-out;
+  }
+  
+  .button:hover{
+    background-color: #013B5B;
+    transform: scale(1.1);
+    box-shadow: 0 25px 20px #001B26;
+    border-color: #001B26;
+  }
+  
+  img{
+    width: 60%;
+    height: auto;
+  }
+  
+  .mainBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+  }
+  
+  body{
+    margin: 0;
+    background-color: #000F17;
+    filter: blur(8px);
+    transition: all 1s ease-in;
+  }
+  
+</style>
+
+<script>
+  addEventListener('load', ()=>{
+    document.getElementsByTagName('body')[0].style.filter = 'blur(0px)';
+  })
+</script>
+</body>
+
+</html>
